@@ -23,7 +23,6 @@ export const timelineMonths = [
     id: 'jun-2025',
     label: 'June 2025',
     title: 'Summer starts',
-    caption: 'Placeholder: add a caption for this month.',
     photos: [
       photo('june2025Photo.jpg', 'One of our first few pictures 😁'),
       photo('june2025Photo2.jpg', 'First picture in the car 🚗'),
@@ -36,7 +35,6 @@ export const timelineMonths = [
     id: 'jul-2025',
     label: 'July 2025',
     title: 'Adventures',
-    caption: 'Placeholder: add a caption for this month.',
     photos: [
       photo('july2025Photo.jpg', 'Our first visit to a beach'),
       photo('july2025Photo2.jpg', 'Our first rainbow'),
@@ -53,7 +51,6 @@ export const timelineMonths = [
     id: 'aug-2025',
     label: 'August 2025',
     title: 'Warm days',
-    caption: 'Placeholder: add a caption for this month.',
     photos: [
       photo('august2025Photo.jpg', 'Trip to Blue Mountains'),
       photo('august2025Photo2.png', 'Tried to impress you 🎭'),
@@ -66,7 +63,6 @@ export const timelineMonths = [
     id: 'sep-2025',
     label: 'September 2025',
     title: 'New season',
-    caption: 'Placeholder: add a caption for this month.',
     photos: [
       photo('sept2025Photo.jpg', 'Our first concert together'),
       photo('sept2025Photo2.jpg', 'Second visit to the home'),
@@ -76,7 +72,6 @@ export const timelineMonths = [
     id: 'oct-2025',
     label: 'October 2025',
     title: 'Fall memories',
-    caption: 'Placeholder: add a caption for this month.',
     photos: [
       photo('oct2025Photo.jpg', 'The day you said yes! 💍'),
       photo('oct2025Photo2.jpg', 'My princess with her ring'),
@@ -87,7 +82,6 @@ export const timelineMonths = [
     id: 'nov-2025',
     label: 'November 2025',
     title: 'Cozy times',
-    caption: 'Placeholder: add a caption for this month.',
     photos: [
       photo('nov2025Photo.JPG', 'When we became official'),
       photo('nov2025Photo2.jpg', 'The day I became the luckiest man :)'),
@@ -100,7 +94,6 @@ export const timelineMonths = [
     id: 'dec-2025',
     label: 'December 2025',
     title: 'Holidays',
-    caption: 'Placeholder: add a caption for this month.',
     photos: [
       photo('dec2025Photo.jpg', 'Flirting with air'),
       photo('dec2025Photo2.jpg', 'Being cute after making love'),
@@ -114,7 +107,6 @@ export const timelineMonths = [
     id: 'jan-2026',
     label: 'January 2026',
     title: 'New year',
-    caption: 'Placeholder: add a caption for this month.',
     photos: [
       photo('jan2026Photo.jpg', 'Girl too shy for titanic pose'),
       photo('jan2026Photo2.jpg', 'Trying to undress me in public'),
