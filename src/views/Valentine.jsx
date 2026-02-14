@@ -3,11 +3,20 @@ import Confetti from './Confetti'
 import styles from './Valentine.module.css'
 
 // Replace with your own letter (use \n\n for paragraph breaks)
-const LETTER_CONTENT = `This is where your letter goes.
+const LETTER_CONTENT = `
+I don't know where to start as you made everyday special for me. Whether you were here or not; your presence was always with me. It was a beautiful year as a whole. I didn't know I would be married by this year; however, I am happy that I did get married only because you are my wife.
 
-You can write as much as you like. Each time you add two line breaks, it starts a new paragraph.
+The day I met you, I was not aware it would lead to something beautiful. I can say for sure that your beauty did struck right from the first day, and later I got to know you. Your demenaor took over your beauty. I got to know a very kind and loving person.
 
-Edit LETTER_CONTENT in src/views/Valentine.jsx to put your real message here.`
+I know I can be hard to deal with sometimes as I can be stubborn on some things, but for some reason I have always agreed when you needed or wanted something from me or this relationship. All because of you and your love.
+
+The days apart have also been beautiful as I got to know the desire I have to love you more, wanting you here to make love.
+
+I don't have many words to express. All I can say is I am the luckiest man and this has been a great year for me - just because you came into my life and become my partner forever ♾️.
+
+I hope we love, fight, care, travel and do everything, and do it together.
+
+To my lovely wife, Preeto 😘 `
 
 export default function Valentine() {
   const [saidYes, setSaidYes] = useState(false)
