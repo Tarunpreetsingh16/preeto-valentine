@@ -3,14 +3,14 @@ import react from '@vitejs/plugin-react'
 import path from 'path'
 import fs from 'fs'
 
-// Relative base works on any host/path (e.g. GitHub Pages /preeto-valentine/)
-const BASE = './'
+// Must match GitHub Pages project path: https://<user>.github.io/preeto-valentine/
+const BASE = '/preeto-valentine/'
 
 function servePhotosUnderBase() {
   return {
     name: 'serve-photos-under-base',
     configureServer(server) {
-      const photoPrefix = BASE === './' ? '/photos/' : BASE + 'photos/'
+      const photoPrefix = BASE.startsWith('/') ? BASE + 'photos/' : '/photos/'
       server.middlewares.use((req, res, next) => {
         if (req.url?.startsWith(photoPrefix)) {
           const name = req.url.slice(photoPrefix.length).split('?')[0]
