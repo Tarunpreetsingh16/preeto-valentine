@@ -9,17 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <noscript>Enable JavaScript to view this page.</noscript>
-    <div id="root" style="min-height:100vh;display:flex;align-items:center;justify-content:center;background:#0f0d12;color:#f5f0eb;font-family:system-ui;">Loading…</div>
-    <script>
-      (function() {
-        var p = location.pathname;
-        if (p === '/preeto-valentine' && p[p.length - 1] !== '/') {
-          location.replace('/preeto-valentine/' + (location.hash || ''));
-          return;
-        }
-      })();
-    </script>
+    <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
