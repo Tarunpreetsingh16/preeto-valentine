@@ -1,8 +1,9 @@
 name: Deploy to GitHub Pages
 
+# Deploy only from one branch so the live site isn't overwritten by another branch's build
 on:
   push:
-    branches: [main, master, develop]
+    branches: [develop]
 
 permissions:
   contents: read
