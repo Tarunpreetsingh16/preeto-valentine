@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <base href="https://tarunpreetsingh16.github.io/preeto-valentine/" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>For You 💕</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,6 +11,11 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      if (location.pathname === '/preeto-valentine' && !location.pathname.endsWith('/')) {
+        location.replace('/preeto-valentine/' + (location.hash || ''));
+      }
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
