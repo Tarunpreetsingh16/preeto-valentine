@@ -1,0 +1,26 @@
+.container {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.piece {
+  position: absolute;
+  top: -20px;
+  border-radius: 2px;
+  animation: fall linear forwards;
+  opacity: 0;
+}
+
+@keyframes fall {
+  0% {
+    opacity: 1;
+    transform: translateY(0) rotate(var(--rot));
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100vh) rotate(calc(var(--rot) + 720deg));
+  }
+}
