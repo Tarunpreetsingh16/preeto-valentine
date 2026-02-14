@@ -7,7 +7,7 @@ function servePhotosUnderBase() {
   return {
     name: 'serve-photos-under-base',
     configureServer(server) {
-      const base = '/haggu-valentine'
+      const base = '/preeto-valentine'
       server.middlewares.use((req, res, next) => {
         if (req.url?.startsWith(`${base}/photos/`)) {
           const name = req.url.slice((base + '/photos/').length).split('?')[0]
@@ -32,5 +32,5 @@ function getMime(filename) {
 
 export default defineConfig({
   plugins: [react(), servePhotosUnderBase()],
-  base: '/haggu-valentine/',
+  base: '/preeto-valentine/',
 })
