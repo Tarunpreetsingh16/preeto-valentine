@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <base href="https://tarunpreetsingh16.github.io/preeto-valentine/" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>For You 💕</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,11 +9,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="root"></div>
+    <noscript>Enable JavaScript to view this page.</noscript>
+    <div id="root" style="min-height:100vh;display:flex;align-items:center;justify-content:center;background:#0f0d12;color:#f5f0eb;font-family:system-ui;">Loading…</div>
     <script>
-      if (location.pathname === '/preeto-valentine' && !location.pathname.endsWith('/')) {
-        location.replace('/preeto-valentine/' + (location.hash || ''));
-      }
+      (function() {
+        var p = location.pathname;
+        if (p === '/preeto-valentine' && p[p.length - 1] !== '/') {
+          location.replace('/preeto-valentine/' + (location.hash || ''));
+          return;
+        }
+      })();
     </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
